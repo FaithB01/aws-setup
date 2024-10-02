@@ -1,15 +1,14 @@
-
 version: 0.2
 
 phases:
   install:
     commands:
-      - echo Installing dependencies...
-      - npm install
+      - echo No Node.js dependencies to install.
   build:
     commands:
       - echo Build started on `date`
-      - npm run build
+      - echo Running build commands...
+      # Add your actual build commands here based on your project needs
 artifacts:
   files:
     - '**/*'

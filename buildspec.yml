@@ -8,7 +8,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Running build commands...
-      # Add your actual build commands here based on your project needs
+      # Add your actual build commands here based on your project needs-like npm install
 artifacts:
   files:
     - '**/*'
